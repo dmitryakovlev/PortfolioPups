@@ -1,0 +1,311 @@
+
+
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 700;
+    color: black;
+}
+
+h3 {
+    font-weight: 400;
+}
+
+h2 {
+    text-align: center;
+}
+.white_bg {
+    background-color: #fff;
+    border-radius: 0 20px 20px 0;
+}
+
+
+header {
+    padding-top: 50px;
+    padding-bottom: 105px;
+    background: #fcc70f;
+    color: #171717;
+}
+
+.offer {
+    margin: 100px auto 0;
+}
+
+.offer__title {
+    margin-bottom: 5px;
+    font-size: 48px;
+}
+
+.offer__intro {
+
+    font-size: 24px;
+    line-height: 1.3em;
+
+}
+
+.offer__text {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 20px;
+    width: 380px;
+}
+
+.icons__items {
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+.icons__items a {
+    color: black;
+    font-size: 42px;
+    transition: all 0.3s ease;
+}
+
+.icons__items a:hover {
+    text-decoration: none;
+    color: #fc670f;
+}
+
+.avatar {
+    display: block;
+    float:right;
+    margin-top: 40px;
+    width: 400px;
+    height: 400px;
+}
+
+
+
+/*screen two*/
+.skills {
+    background-color: #ffffff;
+}
+
+.title{
+    padding-top: 100px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+.title__main {
+    font-size: 32px;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.title__text {
+    font-size: 18px;
+    color: black;
+    width: 760px;
+    margin: 0 auto;
+}
+
+.skills {
+    padding-bottom: 50px;
+
+}
+
+.skills__icon {
+    font-size: 50px;
+    margin-right: 15px;
+    min-width: 70px;
+    min-height: 70px;
+}
+
+.skills__title {
+    color: black;
+}
+
+.skills__text {
+    color: #898989;
+    margin-right: 35px;
+}
+
+
+
+/*screen three*/
+.portfolio{
+    background-color: #f1f1f1;
+}
+.portfolio__title{
+    padding-top: 100px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.portfolio__title__main {
+    font-size: 32px;
+    color: black;
+}
+
+.content {
+    box-sizing: border-box;
+    width: 100%;
+    height: 400px;
+    margin:0px auto 100px;
+}
+.potfolio__content__photo {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px 0 0 20px;
+}
+.potfolio__content {
+    flex-direction: column;
+}
+.potfolio__content__title {
+    margin: 30px 0 15px 0;
+    font-size: 28px;
+}
+
+.potfolio__content__text {
+    margin: 0 20px 20px;
+}
+.potfolio__content__table {
+    margin: 0 0 30px 20px ;
+    font-size: 14px;
+}
+.potfolio__content__button {
+    width: 100%;
+    height: 40px;
+
+    border: none;
+    border-radius: 20px;
+    background-color: #fcc70f;
+    transition: all 0.3s ease;
+}
+.potfolio__content__button:hover {
+    background-color: #fc670f;
+    color: white;
+}
+.potfolio__content__link {
+    margin: 0 50px;
+}
+
+/*screen four*/
+
+footer {
+    background: black;
+    padding: 0 0 95px;
+}
+
+.footer p {
+    color: white;
+}
+
+.footer__email {
+    margin-top:10px;
+}
+
+.footer__email a{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.footer__email a:hover{
+    color: #fc670f;
+    text-decoration: none;
+}
+
+.credits {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    width: 150px;
+    margin: -20px auto;
+}
+
+
+
+/*colors*/
+
+.yellow {
+    color: #fcc70f;
+}
+
+
+
+@media screen and (max-width: 1199px) {
+    .skills__text {
+        margin-right: -5px;
+    }
+    .potfolio__content__title {
+        margin: 15px 0 10px 0;
+        font-size: 20px;
+    }
+    
+    .potfolio__content__text {
+        font-size: 14px;
+    }
+    .potfolio__content__table {
+        margin: 0 0 20px 20px ;
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .offer {
+        text-align: center;
+        margin: 60px auto 0;
+    }
+    .offer__text {
+        margin: 20px auto;
+        width: auto;
+    }
+    .offer__intro {
+        width: auto;
+    }
+    .icons {
+        justify-content: center;
+    }
+    .icons__items:nth-child(4){
+        margin-right: 0;
+    }
+    .avatar{
+        display: none;
+    }
+    .title__text {
+        width: auto;
+    }
+    .potfolio__content__photo { 
+        width: 60%;
+        border-radius: 20px 20px 0 0;
+
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .offer {
+        margin: 20px auto 0;
+    }
+    .menu {
+        flex-direction: column;
+    }
+    .menu__item {
+        display: none;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .content {
+        width: 90%;
+        margin:20px auto 100px;
+    }
+    #galleria{
+        height:90%;
+    }
+    .gallery {
+        flex-direction: column;
+        text-align: center;
+        line-height: 30px;
+    }
+}
