@@ -36,7 +36,7 @@ header {
 }
 
 .offer {
-    margin: 100px auto 0;
+    margin: 60px auto 0;
 }
 
 .offer__title {
@@ -72,6 +72,22 @@ header {
 .icons__items a:hover {
     text-decoration: none;
     color: #fc670f;
+}
+.offer__button {
+    width: 43%;
+    height: 40px;
+    margin: 20px 0;
+    border: 3px solid black;
+    border-radius: 20px;
+    background-color: #fcc70f;
+    transition: all 0.3s ease;
+}
+.offer__button:hover {
+    border: 3px solid #fc670f;
+    color: #fc670f;
+}
+.offer__link {
+
 }
 
 .avatar {
@@ -250,7 +266,9 @@ footer {
         margin: 0 0 20px 20px ;
         font-size: 12px;
     }
-
+    .offer__button {
+        width: 53%;
+    }
 }
 
 @media screen and (max-width: 991px) {
