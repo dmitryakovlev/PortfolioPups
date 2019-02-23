@@ -277,10 +277,32 @@ footer {
     .title__text {
         width: auto;
     }
-    .potfolio__content__photo { 
-        width: 60%;
-        border-radius: 20px 20px 0 0;
-
+    .potfolio__content__photo {
+        display: none;
+    }
+    .potfolio__content {
+        height: 400px;
+    }
+    .white_bg {
+        border-radius: 20px;
+    }
+    .potfolio__content__title {
+        margin: 30px 0 15px 0;
+        font-size: 28px;
+    }
+    .potfolio__content__text {
+        margin: 0 20px 20px;
+    }
+    .potfolio__content__table {
+        margin: 0 0 40px 20px ;
+        font-size: 14px;
+    }
+    .potfolio__content__button:hover {
+        background-color: #fc670f;
+        color: white;
+    }
+    .potfolio__content__link {
+        margin: 0 50px;
     }
 }
 
@@ -300,12 +322,31 @@ footer {
         width: 90%;
         margin:20px auto 100px;
     }
-    #galleria{
-        height:90%;
+}
+@media screen and (max-width: 501px) {
+    .content {
+        width: 320px;
     }
-    .gallery {
-        flex-direction: column;
-        text-align: center;
-        line-height: 30px;
+    .potfolio__content__title {
+        margin: 15px 0 10px 0;
+        font-size: 20px;
+    }
+
+    .potfolio__content__text {
+        font-size: 14px;
+    }
+
+    .potfolio__content__table {
+        margin: 0 0 20px 20px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 385px) {
+    .content {
+        width: 270px;
+    }
+    .potfolio__content {
+        height: 450px;
     }
 }
