@@ -77,13 +77,13 @@ header {
     width: 43%;
     height: 40px;
     margin: 20px 0;
-    border: 3px solid black;
+    border: 2px solid black;
     border-radius: 20px;
     background-color: #fcc70f;
     transition: all 0.3s ease;
 }
 .offer__button:hover {
-    border: 3px solid #fc670f;
+    border: 2px solid #fc670f;
     color: #fc670f;
 }
 .avatar {
