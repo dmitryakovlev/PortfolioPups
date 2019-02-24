@@ -26,6 +26,9 @@ h2 {
     background-color: #fff;
     border-radius: 0 20px 20px 0;
 }
+.c__two {
+    margin-top: -50px;
+}
 
 
 header {
@@ -265,6 +268,10 @@ footer {
     .offer__button {
         width: 53%;
     }
+    .c__two {
+        margin-top: -120px;
+        margin-bottom: -100px;
+    }
 }
 
 @media screen and (max-width: 991px) {
@@ -318,6 +325,10 @@ footer {
     .potfolio__content__link {
         margin: 0 50px;
     }
+    .c__two {
+        margin-top: -60px;
+        margin-bottom: -30px;
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -362,5 +373,8 @@ footer {
     }
     .potfolio__content {
         height: 450px;
+    }
+    .c__two {
+        margin-top: -50px;
     }
 }

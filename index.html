@@ -26,7 +26,7 @@
                             UX/UI designer and front-end developer
                         </div>
                         <p class="offer__text">
-                            Here you can see my portfolio work and read a little about me. You can also contact me with a proposal for cooperation. I'm pleased to take a part in interesting projects. Let's start!
+                            Here you can see my portfolio works and read a little about me. You can also contact me with a proposal for cooperation. I'm pleased to take a part in interesting projects. Let's start!
                         </p>
                         <ul class="icons d-flex">
                             <li class="icons__items">
@@ -192,6 +192,51 @@
                 </div>
             </div>
 
+            <div class="row c__two">
+                <div class="col-lg-10 m-auto">
+                    <div class="content" id="content">
+                        <div class="row">
+                            <div class="col-lg-5 potfolio__content__img">
+                                <img src="img/wm.png" class="potfolio__content__photo" alt="potfolio photo">
+                            </div>
+                            <div class="col-lg-7 white_bg">
+                                <div class="potfolio__content d-flex">
+                                    <h2 class="potfolio__content__title">Washing Machine</h2>
+                                    <p class="potfolio__content__text">Development of an alternative UX and UI design for the finished product. The big difficulties were due to the ready architecture of the motherboard and software limitation. An alternative version is only a concept.</p>
+                                    <table class="potfolio__content__table">
+                                        <tr>
+                                            <th>Tasks</th>
+                                            <th>My role</th>
+                                        </tr>
+                                        <tr>
+                                            <td>- alternative UI</td>
+                                            <td>- defining the problem</td>
+                                        </tr>
+                                        <tr>
+                                            <td>- adding more colors</td>
+                                            <td>- new concept development</td>
+                                        </tr>
+                                        <tr>
+                                            <td>- use of the ready-made technical</td>
+                                            <td>- ui design</td>
+                                        </tr>
+                                        <tr>
+                                            <td>solution</td>
+                                            <td></td>
+                                        </tr>
+                                    </table>
+                                    <a href="pdf/wm.pdf" class="potfolio__content__link" target="_blank">
+                                        <button type="button" class="potfolio__content__button">
+                                            See details
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </section>
 
@@ -229,21 +274,6 @@
         </div>
     </footer>
 
-
-
-    <script src="js/jquery-3.3.1.min.js"></script>
-
-    <!-- Add scroll -->
-    <script type="text/javascript">
-        $(document).ready(function(){
-            $("#scroll").on("click","a", function (event) {
-                event.preventDefault();
-                var id  = $(this).attr('href'),
-                    top = $(id).offset().top;
-                $('body,html').animate({scrollTop: top}, 800);
-            });
-        });
-    </script>
 
 
 </body>
